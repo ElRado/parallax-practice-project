@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body{
+    background-color: black;
+}
+
+#parallax_1 {
+background-image: url(../images/cafe1.jpeg);
+font-family: 'Shadows Into Light', cursive;
+}
+
+.parallax_wrapper {
+    background:linear-gradient(90deg, rgba(85,27,153,1) 20%, rgba(147,65,209,1) 60%, rgba(147,66,209,1) 99%, rgba(128,12,209,0.29735644257703087) 100%);
+    width: 800px;
+    height: 360px;
+    border-radius: 25;
+    margin: 6rem auto;
+    
+    
+}
+
+
+#parallax_2 {
+background-image: url(../images/lofi2.jpg);
+font-family: 'Shadows Into Light', cursive;
+
+}
+
+#parallax_3 {
+    background-image: url(../images/lofi3.jpg);
+    font-family: 'Shadows Into Light', cursive;
+    }
+
+#parallax_4 {
+        background-image: url(../images/lofi4.jpg);
+        font-family: 'Shadows Into Light', cursive;
+        }
+#parallax_5 {
+    background-image: url(../images/lofi5.jpg);
+    font-family: 'Shadows Into Light', cursive; 
+         }
+
+.parallax_effect {
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    background-attachment: fixed;
+}
+.footer{
+    background-color: blueviolet;
+}
